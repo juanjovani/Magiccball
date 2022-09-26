@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Magic Ball</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Preguntale ala bola magica</h1>
+        <hr>
+        <form>
+            <label for="question">Question</label>
+            <input type="text" name="question" id="question">
+            <hr>
+            <label for="naswer">Answer</label>
+            <input type="text" name="answer" id="amswer">
+            <hr>
+            <input type="button"
+            onclick="ask()"
+            class ="btn btn-success btn-lg" value="Ask">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
